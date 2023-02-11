@@ -1,12 +1,25 @@
+#include <cs50.h>
 #include <stdio.h>
 
 // mario game in c
 
 int main(void)
 {
-    for (int i = 4; i > 0; i--)
+    // get size of grid
+    int size;
+    // using do while loop to check user input is greater than 1
+    do 
     {
-        printf("?");
+        size = get_int("Size: ");
     }
-    printf("\n");
+    while (size < 1);
+    // loop to print required size onto the console
+    for (int i = 0; i < size; i++)
+    {
+        for (int j = 0; j < size; j++) 
+        {
+            printf("#");
+        }
+        printf("\n");
+    }    
 }
