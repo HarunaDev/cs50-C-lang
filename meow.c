@@ -12,4 +12,4 @@ int main(void)
     }
 }
 
-// what does it mean to loop or repeat something three times - it basically means to do one task, then count down and do another task till you exit the loop.
+// what does it mean to loop or repeat something three times - it basically means to do one task, then count down and do another task till you exit the loop or run out of counts.
