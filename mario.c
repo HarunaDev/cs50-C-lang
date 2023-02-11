@@ -13,7 +13,8 @@ int main(void)
         size = get_int("Size: ");
     }
     while (size < 1);
-    // loop to print required size onto the console
+
+    // loop to print required size of bricks onto the console
     for (int i = 0; i < size; i++)
     {
         for (int j = 0; j < size; j++) 
